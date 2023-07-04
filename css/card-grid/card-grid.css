@@ -1,0 +1,8 @@
+.card-grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card-grid--spaced {
+	gap: var(--size-space);
+}

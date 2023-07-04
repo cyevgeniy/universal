@@ -1,0 +1,10 @@
+.bleed {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+}
+
+.bleed--spaced {
+	padding: 1.5rem;
+}

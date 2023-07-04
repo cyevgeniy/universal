@@ -1,0 +1,12 @@
+:root {
+	--color-yellow: yellow;
+	--color-blue: #4361ee;
+	--color-pink: #f72585;
+	--color-shadow: darkgray;
+	--color-card-border: black;
+	--color-gray: gray;
+	--color-dark-gray: darkgray;
+
+	--size-space: 1.5rem;
+	--size-card-min-width: 20rem;
+}

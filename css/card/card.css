@@ -1,0 +1,21 @@
+.card {
+	padding: 1rem;
+	border-radius: 0.5rem;
+	box-sizing: border-box;
+}
+
+.card--shadowed {
+	box-shadow: 0.1rem 0.1rem var(--color-shadow);
+}
+
+.card--outlined {
+	border: 1px solid var(--color-card-border);
+}
+
+/*Card grid*/
+.card-grid > .card {
+	flex-basis: 0%;
+	flex-grow: 1;
+	flex-shrink: 1;
+	min-inline-size: 20rem;
+}

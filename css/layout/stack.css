@@ -1,0 +1,4 @@
+/* See https://every-layout.dev/layouts/stack/ */
+.stack > * + * {
+  margin-block-start: 1.5rem;
+}

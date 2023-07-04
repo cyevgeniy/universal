@@ -1,0 +1,11 @@
+.bg-yellow {
+	background-color: var(--color-yellow);
+}
+
+.bg-blue {
+	background-color: var(--color-blue);
+}
+
+.bg-pink {
+	background-color: var(--color-pink);
+}
