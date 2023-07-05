@@ -1,8 +1,11 @@
 const bundlerPlugin = require("@11ty/eleventy-plugin-bundle");
-const shortcodes = require("./shortcodes.js")
+const shortcodes = require("./shortcodes.js");
+const markdownIt = require("./markdown.js");
 
 // Config based on https://github.com/11ty/eleventy-base-blog/blob/main/eleventy.config.js
 module.exports = function (eleventyConfig) {
+
+	eleventyConfig.setLibrary('md', markdownIt);
 
 	eleventyConfig.addPlugin(bundlerPlugin);
 
