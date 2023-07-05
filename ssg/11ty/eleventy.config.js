@@ -14,6 +14,26 @@ module.exports = function (eleventyConfig) {
 		return `<div class="container stack">${content}</div>`;
 	});
 
+	/**
+	 * card-grid shortcode is a container for cards.
+	 * It automatically places cards and adds spacing between them.
+	 */
+	eleventyConfig.addPairedShortcode("card-grid", function (content) {
+		return `<div class="card-grid card-grid--spaced">${content}</div>`;
+	});
+
+	const colors = ["yellow", "blue", "pink"]
+
+	/**
+	 * card shortcode is a card container.
+	 */
+	eleventyConfig.addPairedShortcode("card", function (content, backgroundColor, type) {
+		const bgClass = colors.includes(backgroundColor) ? `bg-${backgroundColor}` : '';
+		const typeClass = ["shadowed", "outlined"].includes(type) ? `card--${type}`: '';
+
+		return `<div class="card stack ${bgClass} ${typeClass}">${content}</div>`;
+	});
+
 	return {
 		// These are all optional:
 		dir: {
