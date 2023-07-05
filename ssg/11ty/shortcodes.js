@@ -19,14 +19,19 @@ const colors = ["yellow", "blue", "pink"];
 //
 // https://www.aleksandrhovhannisyan.com/blog/custom-markdown-components-in-11ty/
 // 
+// Also, markdown indentation inside a shortcode should be consistent - 
+// you should not mix tabs vs spaces and use different indentation sizes.
+// 
+// If you get any unexpected rendering behavior, just remove all indentations!
+//
 function card(content, backgroundColor, type) {
 	const bgClass = colors.includes(backgroundColor) ? `bg-${backgroundColor}` : "";
 	const typeClass = ["shadowed", "outlined"].includes(type)
-		? `card--${card.type}`
+		? `card--${type}`
 		: "";
 
-	const parsedContent = markdownIt.render(content);
-	return outdent`<div class="card stack ${bgClass} ${typeClass}}">${parsedContent}</div>`;
+	const parsedContent = markdownIt.render(outdent.string(content));
+	return outdent`<div class="card stack ${bgClass} ${typeClass}">${parsedContent}</div>`;
 }
 
 function cardGrid(content) {
