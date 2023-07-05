@@ -8,7 +8,4 @@
 @import "./card-grid/card-grid.css";
 @import "./layout/stack.css";
 @import "./typography.css";
-
-img {
-	max-width: 100%;
-}
+@import "./tags.css";
