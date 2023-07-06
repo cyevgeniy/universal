@@ -24,14 +24,15 @@ const colors = ["yellow", "blue", "pink"];
 // 
 // If you get any unexpected rendering behavior, just remove all indentations!
 //
-function card(content, backgroundColor, type) {
+function card(content, backgroundColor, type, centered) {
 	const bgClass = colors.includes(backgroundColor) ? `bg-${backgroundColor}` : "";
 	const typeClass = ["shadowed", "outlined"].includes(type)
 		? `card--${type}`
 		: "";
+	const centeredClass = centered ? "card--centered" : undefined;
 
 	const parsedContent = markdownIt.render(outdent.string(content));
-	return outdent`<div class="card stack ${bgClass} ${typeClass}">${parsedContent}</div>`;
+	return outdent`<div class="card stack ${bgClass} ${typeClass} ${centeredClass}">${parsedContent}</div>`;
 }
 
 function cardGrid(content) {
