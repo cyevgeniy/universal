@@ -32,6 +32,8 @@ module.exports = function (eleventyConfig) {
 		shortcodes.card
 	);
 
+	eleventyConfig.addShortcode("figure", shortcodes.figure);
+
 	return {
 		// These are all optional:
 		dir: {

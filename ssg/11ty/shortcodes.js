@@ -38,9 +38,14 @@ function cardGrid(content) {
 	return `<div class="card-grid card-grid--spaced">${content}</div>`;
 }
 
+function figure(src, caption, alt) {
+	return `<figure><img src="${src}" alt="${alt}"><figcaption>${caption}</figcaption> </figure>`
+}
+
 module.exports = {
 	bleed,
 	container,
 	card,
-	cardGrid
+	cardGrid,
+	figure
 };
