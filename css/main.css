@@ -6,6 +6,7 @@
 @import "./layout/container.css";
 @import "./layout/bleed.css";
 @import "./card-grid/card-grid.css";
+@import "./image/image.css";
 @import "./layout/stack.css";
 @import "./typography.css";
 @import "./tags.css";
