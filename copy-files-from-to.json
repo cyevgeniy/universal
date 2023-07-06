@@ -4,5 +4,9 @@
             "from": "bundle.css",
             "to": "ssg/11ty/public/css/bundle.css"
         }
-    ]
+    ],
+    "copyFilesSettings": {
+        "whenFileExists": "overwrite"
+    }
+
 }
