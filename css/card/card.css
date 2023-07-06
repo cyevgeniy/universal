@@ -12,6 +12,23 @@
 	border: 1px solid var(--color-card-border);
 }
 
+.card--centered {
+	text-align: center;
+}
+
+.card--centered ul {
+	/* Keep bullets next to list item's text */
+	list-style-position: inside;
+
+	/* Bullets occupy some space and lists don't look centered. Let's fix that */
+	margin-inline-start: -1rem;
+}
+
+.card--centered p > img {
+	/* Images are wrapped in a <pP tag in markdown and aren't centered. Fix that */
+	margin: 0 auto;
+}
+
 /*Card grid*/
 .card-grid > .card {
 	flex-basis: 0%;
