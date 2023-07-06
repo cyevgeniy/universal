@@ -9,3 +9,7 @@ pre {
 	border: 2px solid var(--color-gray);
 	border-radius: 0.5rem;
 }
+
+li + li {
+	margin-top: var(--size-list-space);
+}
