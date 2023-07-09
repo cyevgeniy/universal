@@ -1,0 +1,19 @@
+img {
+	max-width: 100%;
+}
+
+figure {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+figure > img {
+	box-shadow: 0 0.25rem 0.5rem var(--color-shadow);
+}
+
+figcaption {
+	margin-block-start: 0.5rem;
+	color: var(--color-gray);
+	font-style: italic;
+}
