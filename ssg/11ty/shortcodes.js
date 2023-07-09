@@ -12,7 +12,7 @@ function container(content) {
 	return `<div class="container stack">${content}</div>`;
 }
 
-const colors = ["yellow", "blue", "pink"];
+const colors = ["yellow", "yellow-soft",  "blue", "blue-soft", "pink", "pink-soft"];
 
 // Credits to Aleksandr Hovhannisyan for his great article on how
 // to parse markdown inside 11ty's shortcodes

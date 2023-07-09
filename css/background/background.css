@@ -9,3 +9,15 @@
 .bg-pink {
 	background-color: var(--color-pink);
 }
+
+.bg-blue-soft {
+	background-color: var(--color-blue-soft);
+}
+
+.bg-yellow-soft {
+	background-color: var(--color-yellow-soft);
+}
+
+.bg-pink-soft {
+	background-color: var(--color-pink-soft);
+}
