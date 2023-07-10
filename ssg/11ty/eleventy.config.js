@@ -1,6 +1,7 @@
 const bundlerPlugin = require("@11ty/eleventy-plugin-bundle");
 const shortcodes = require("./shortcodes.js");
 const markdownIt = require("./markdown.js");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 // Config based on https://github.com/11ty/eleventy-base-blog/blob/main/eleventy.config.js
 module.exports = function (eleventyConfig) {
@@ -8,6 +9,8 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.setLibrary('md', markdownIt);
 
 	eleventyConfig.addPlugin(bundlerPlugin);
+
+	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
 	// Universal Shortcodes (Adds to Liquid, Nunjucks, JavaScript, Handlebars)
 	eleventyConfig.addPairedShortcode(

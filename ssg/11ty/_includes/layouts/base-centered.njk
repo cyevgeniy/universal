@@ -1,6 +1,13 @@
 ---
 layout: "layouts/base.njk"
+showSiteTitle: true
 ---
+
+{% if (showSiteTitle) %}
+	{% include "sitetitle.njk" %}
+{% endif %}
+
+{% include "navigation.njk" %}
 
 <div class="container stack">
 	{{ content | safe }}
