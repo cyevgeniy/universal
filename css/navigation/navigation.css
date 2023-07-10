@@ -1,0 +1,22 @@
+.nav {
+	padding: 0.5rem;
+	
+	border-bottom: 1px solid var(--color-dark-gray);
+}
+
+.nav__items {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--size-space);
+	max-width: var(--size-container-width);
+	margin: 0 auto;	
+}
+
+.nav__items--centered {
+	place-content: center;
+}
+
+.nav__item {
+	color: var(--color-blue);
+	font-weight: bold;
+}

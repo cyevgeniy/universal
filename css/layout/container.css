@@ -1,5 +1,5 @@
 .container {
-	max-width: 70ch;
+	max-width: var(--size-container-width);
 	margin: 0 auto;
 	padding-block-end: var(--size-space);
 	padding-block-start: var(--size-space);

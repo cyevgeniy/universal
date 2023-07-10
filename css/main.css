@@ -3,6 +3,8 @@
 @import "./background/background.css";
 @import "./card/card.css";
 @import "./footer/footer.css";
+@import "./navigation/navigation.css";
+@import "./header/header.css";
 @import "./layout/container.css";
 @import "./layout/bleed.css";
 @import "./card-grid/card-grid.css";

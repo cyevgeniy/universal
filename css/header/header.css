@@ -1,0 +1,15 @@
+.header {
+	max-width: var(--size-container-width);
+	margin: 0 auto;
+	margin-bottom: var(--size-space);
+}
+
+.header__item {
+	display: block;
+	font-weight: 600;
+	font-size: 2rem;	
+}
+
+.header__item--centered {
+	text-align: center;
+}
