@@ -2,6 +2,7 @@
 	max-width: var(--size-container-width);
 	margin: 0 auto;
 	margin-bottom: var(--size-space);
+	padding-top: var(--size-space);
 }
 
 .header__item {
