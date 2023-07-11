@@ -9,7 +9,8 @@ function bleed(content, backgroundColor, spaced) {
 }
 
 function container(content) {
-	return `<div class="container stack">${content}</div>`;
+	const parsedContent = markdownIt.render(outdent.string(content));
+	return `<div class="container stack">${parsedContent}</div>`;
 }
 
 const colors = ["yellow", "yellow-soft",  "blue", "blue-soft", "pink", "pink-soft"];
