@@ -45,6 +45,7 @@ module.exports = function (eleventyConfig) {
 	);
 
 	eleventyConfig.addShortcode("figure", shortcodes.figure);
+	eleventyConfig.addShortcode("button", shortcodes.button);
 
 	return {
 		// These are all optional:

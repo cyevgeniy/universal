@@ -44,10 +44,17 @@ function figure(src, caption, alt) {
 	return `<figure><img src="${src}" alt="${alt}"><figcaption>${caption}</figcaption> </figure>`
 }
 
+function button(content, link, color) {
+	const buttonColors = ["pink", "yellow", "blue"];
+	const colorClass = buttonColors.includes(color) ? `button--${color}` : undefined;
+	return `<a class="button ${colorClass}" href="${link}">${content}</a>`
+}
+
 module.exports = {
 	bleed,
 	container,
 	card,
 	cardGrid,
-	figure
+	figure,
+	button
 };
