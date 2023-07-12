@@ -1,0 +1,12 @@
+---
+layout: "layouts/base-centered.njk"
+numberOfLatestpoststoshow: 1
+eleventyNavigation:
+  key: Blog
+  order: 2
+---
+
+{% for post in collections.posts | reverse | head(meta.postsCount) %}
+  <p><a class="postlist__item" href="{{post.url}}">{{ post.data.title }}</a></p>
+{% endfor %}
+
