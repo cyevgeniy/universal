@@ -1,0 +1,39 @@
+.button {
+  font-weight: normal;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+  padding-block-start: 0.6rem;
+  padding-block-end: 0.6rem;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1rem;
+}
+
+.button--blue {
+  color: white;
+  background-color: var(--color-blue);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.button--yellow {
+  color: black;
+  background-color: var(--color-yellow);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.button--pink {
+  background-color: var(--color-pink);
+  color: white;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  box-shadow: 0 0.25rem 0.5rem var(--color-shadow);
+}
+
+.button:active {
+  border: none;
+}
