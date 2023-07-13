@@ -2,3 +2,7 @@
 .stack > * + * {
   margin-block-start: 1.5rem;
 }
+
+.stack--small > * + * {
+  margin-block-start: 0.75rem;
+}

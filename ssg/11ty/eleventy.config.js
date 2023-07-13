@@ -47,6 +47,10 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addShortcode("figure", shortcodes.figure);
 	eleventyConfig.addShortcode("button", shortcodes.button);
 
+	eleventyConfig.addPairedShortcode(
+		"aside",
+		shortcodes.aside
+	);
 	return {
 		// These are all optional:
 		dir: {

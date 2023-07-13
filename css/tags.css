@@ -16,3 +16,20 @@ blockquote {
 	background-color: #dee2e6;
 	font-style: italic;
 }
+
+aside {
+	border: 1px solid var(--color-dark-gray);
+	width: 35%;
+	float: left;
+	margin-inline-end: 1rem;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 770px) {
+	aside {
+		width: 100%;
+		float: none;
+	}
+}

@@ -50,11 +50,18 @@ function button(content, link, color) {
 	return `<a class="button ${colorClass}" href="${link}">${content}</a>`
 }
 
+function aside(content, backgroundColor) {
+	const bgClass = colors.includes(backgroundColor) ? `bg-${backgroundColor}` : undefined;
+	const parsedContent = markdownIt.render(outdent.string(content));
+	return outdent`<aside class="stack--small ${bgClass}">${parsedContent}</aside>`;
+}
+
 module.exports = {
 	bleed,
 	container,
 	card,
 	cardGrid,
 	figure,
-	button
+	button,
+	aside
 };
