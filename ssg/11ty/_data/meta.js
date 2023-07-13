@@ -5,5 +5,10 @@ module.exports = {
 	/**
 	 * How much posts to display on the main blog page
 	 */
-	postsCount: 10
+	postsCount: 10,
+
+	/**
+	 * Display post publish date in a posts list
+	 */
+	showPostDate: true
 }

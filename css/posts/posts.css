@@ -1,3 +1,8 @@
 .postlist__item {
 	font-weight: 600;
 }
+
+.postlist__date {
+	font-style: italic;
+	color: var(--color-dark-gray);
+}
