@@ -1,5 +1,5 @@
 module.exports = {
-	title: "Universal theme for Eleventy",
+	title: "Universal theme",
 	centeredNavigation: false,
 	
 	/**
