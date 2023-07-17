@@ -10,6 +10,9 @@ showSiteTitle: true
 {% include "navigation.njk" %}
 
 <div class="container stack">
+	{% if (title) %}
+		<h1> {{title}}</h1>
+	{% endif %}
 	{{ content | safe }}
 </div>
 {% include "footer.njk" %}
