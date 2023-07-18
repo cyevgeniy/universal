@@ -1,0 +1,25 @@
+/* Code blocks, keys */
+
+pre {
+	overflow: auto;
+	tab-width: 8;
+	padding: var(--size-pre-padding);
+	border: 2px solid var(--color-gray);
+	border-radius: 0.5rem;
+}
+
+pre>code {
+	background: transparent;
+}
+
+code, kbd {
+    font-size: 0.9rem;
+    background-color: var(--color-code-inline);
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+}
+
+kbd {
+    border-bottom: 2px solid var(--color-gray);
+    border-right: 2px solid var(--color-gray);
+}

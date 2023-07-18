@@ -14,3 +14,9 @@
 @import "./layout/stack.css";
 @import "./typography.css";
 @import "./tags.css";
+@import "./code/code.css";
+
+/* Hide horizontal scroll */
+body {
+  overflow-x: hidden;
+}
