@@ -12,7 +12,7 @@ for 11ty will be finished.
 **Good news**! While Universal is still in development, it's quite
 usable, so **[check it out](https://github.com/cyevgeniy/universal)**.
 
-{% fullbleed "yellow-soft", true %}
+{% fullbleed "yellow-soft", false %}
 {% container %}
 	##  Goals
 
