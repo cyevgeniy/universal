@@ -5,6 +5,13 @@
 	padding-top: var(--size-space);
 }
 
+@media only screen and (max-width: 770px) {
+	.header {
+		padding-inline-start: var(--size-small-container-padding);
+		padding-inline-end: var(--size-small-container-padding);
+	}
+}
+
 .header__item {
 	display: block;
 	font-weight: 600;

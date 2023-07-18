@@ -7,7 +7,7 @@
 
 @media only screen and (max-width: 770px) {
 	.container {
-		padding-inline-start: var(--size-space);
-		padding-inline-end: var(--size-space);
+		padding-inline-start: var(--size-small-container-padding);
+		padding-inline-end: var(--size-small-container-padding);
 	}
 }
