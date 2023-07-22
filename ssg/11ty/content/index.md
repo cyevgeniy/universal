@@ -34,7 +34,7 @@ usable, so **[check it out](https://github.com/cyevgeniy/universal)**.
 
 - Add missing styles for basic elements (tables, summaries)
 - Add RSS feed
-- Add "All posts" link to the blog index page
+- ~~Add "All posts" link to the blog index page~~
 - Add Twitter cards
 - Write example-based documentation
 - Create versions for other static site generators (Hugo, Jekyll)
