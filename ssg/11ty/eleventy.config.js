@@ -51,6 +51,9 @@ module.exports = function (eleventyConfig) {
 		"aside",
 		shortcodes.aside
 	);
+
+	eleventyConfig.addPassthroughCopy("img");
+
 	return {
 		// These are all optional:
 		dir: {
