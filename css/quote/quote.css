@@ -11,4 +11,5 @@
 .quote::before, .quote::after {
     content: "***";
     letter-spacing: 6px;
+    height: 1.7rem;
 }
