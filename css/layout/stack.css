@@ -1,8 +1,24 @@
 /* See https://every-layout.dev/layouts/stack/ */
 .stack > * + * {
-  margin-block-start: 1.5rem;
+  margin-block-start: var(--stack-space);
 }
 
 .stack--small > * + * {
   margin-block-start: 0.75rem;
+}
+
+h1 {
+  --stack-space: 3rem;
+}
+
+h2 {
+  --stack-space: 2.7rem;
+}
+
+h3 {
+  --stack-space: 2.5rem;
+}
+
+h4 {
+  --stack-space: 1.85rem;
 }

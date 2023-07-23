@@ -1,22 +1,23 @@
 :root {
-	--color-yellow: yellow;
-	--color-blue: #4361ee;
-	--color-pink: #f72585;
-	--color-yellow-soft: #ffd60a;
-	--color-blue-soft: #219ebc;
-	--color-pink-soft: #ffafcc;
+  --color-yellow: yellow;
+  --color-blue: #4361ee;
+  --color-pink: #f72585;
+  --color-yellow-soft: #ffd60a;
+  --color-blue-soft: #219ebc;
+  --color-pink-soft: #ffafcc;
 
-	--color-shadow: darkgray;
-	--color-card-border: black;
-	--color-gray: gray;
-	--color-dark-gray: darkgray;
-	--color-code-inline: #e8e8e8;
+  --color-shadow: darkgray;
+  --color-card-border: black;
+  --color-gray: gray;
+  --color-dark-gray: darkgray;
+  --color-code-inline: #e8e8e8;
 
-	--size-space: 1.5rem;
-	--size-small-container-padding: 0.7rem;
-	--size-card-min-width: 20rem;
-	--size-pre-padding: 0.7rem;
-	--size-code-padding: 0.1rem;
-	--size-list-space: 0.75rem;
-	--size-container-width: 770px;
+  --size-space: 1.5rem;
+  --stack-space: 1.5rem;
+  --size-small-container-padding: 0.7rem;
+  --size-card-min-width: 20rem;
+  --size-pre-padding: 0.7rem;
+  --size-code-padding: 0.1rem;
+  --size-list-space: 0.75rem;
+  --size-container-width: 770px;
 }
