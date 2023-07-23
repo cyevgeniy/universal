@@ -1,0 +1,14 @@
+.quote {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 2rem;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quote::before, .quote::after {
+    content: "***";
+    letter-spacing: 6px;
+}
