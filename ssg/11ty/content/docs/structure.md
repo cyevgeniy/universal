@@ -11,8 +11,9 @@ how much posts is shown on the `/blog` page.
 **_includes** directory contains templates that describe html
 markup for your site.
 
-**content** directory contains content of your site. This is the
-place where you should create new files. We'll talk about its
-internals later.
+**content** directory is where your content lives. Blog posts,
+about pages, everything is here.
+
+**img** directory is for all your images.
 
 **public** directory contains minified CSS.
