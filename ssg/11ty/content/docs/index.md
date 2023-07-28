@@ -25,6 +25,9 @@ title: Documentation
 
 ## Shortcodes
 
+Some shortcodes support markdown content inside them.
+[Read more about it](/docs/markdown-in-shorcodes).
+
 - [Full bleeds](/docs/shortcode-fullbleed)
 - [Figure](/docs/shortcode-figure)
 - [Buttons](/docs/shortcode-button)
