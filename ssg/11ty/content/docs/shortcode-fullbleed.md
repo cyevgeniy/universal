@@ -85,18 +85,18 @@ This is the source for the full-bleed block above:
 
 {% fullbleed "yellow-soft", false %}
 {% container %}
-    ### Yellow
+    ### Yellow-soft
 {% endcontainer %}
 {% endfullbleed %}
 
 {% fullbleed "pink", false %}
 {% container %}
-    ### Yellow
+    ### Pink
 {% endcontainer %}
 {% endfullbleed %}
 
 {% fullbleed "pink-soft", false %}
 {% container %}
-    ### Yellow
+    ### Pink-soft
 {% endcontainer %}
 {% endfullbleed %}
