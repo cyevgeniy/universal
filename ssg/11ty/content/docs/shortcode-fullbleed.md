@@ -3,9 +3,9 @@ title: Fullbleed shortcode
 ---
 
 Fullbleeds are blocks that occupy full width of the page,
-breaking visual pattern, what grabs user's attention.
+breaking the visual pattern and so grabbing user's attention.
 
-To add a full-bleed, use the {% raw %}`{% fullbleed %}`{% endraw %}
+To add a full-bleed block, use the {% raw %}`{% fullbleed %}`{% endraw %}
 shortcode. It accepts background color and `spaced` boolean
 flag, which adds some paddings to the block:
 
