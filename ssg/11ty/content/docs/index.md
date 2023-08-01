@@ -3,6 +3,7 @@ eleventyNavigation:
   key: Documentation
   order: 4
 title: Documentation
+toc: true
 ---
 
 ## Basics

@@ -1,3 +1,6 @@
-.toc{
+/* TOC is just a list with the .toc class */
+/* Styles for lists are in `tags.css` file */
+
+.toc {
     font-size: 1rem;
 }
