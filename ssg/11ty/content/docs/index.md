@@ -34,3 +34,4 @@ Some shortcodes support markdown content inside them.
 - [Cards](/docs/shortcode-card)
 - [Card grids](/docs/shortcode-cardgrid)
 - [Aside](/docs/shortcode-aside)
+- [Quotes](/docs/shortcode-quote)

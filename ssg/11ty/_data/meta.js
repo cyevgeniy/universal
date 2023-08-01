@@ -1,7 +1,7 @@
 module.exports = {
-	title: "Universal theme",
+	title: "The Universal Theme",
 	centeredNavigation: false,
-	
+
 	/**
 	 * How much posts to display on the main blog page
 	 */
