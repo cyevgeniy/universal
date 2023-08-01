@@ -16,6 +16,7 @@
 @import "./typography.css";
 @import "./tags.css";
 @import "./code/code.css";
+@import "./toc/toc.css";
 
 /* Hide horizontal scroll */
 body {

@@ -13,6 +13,12 @@ showSiteTitle: true
 	{% if (title) %}
 		<h1> {{title}}</h1>
 	{% endif %}
+
+    {% if (toc) %}
+		<h2>Table of contents</h2>
+			{{ content | toc(tags=['h2', 'h3', 'h4']) | safe }}
+    {% endif %}
+
 	{{ content | safe }}
 </div>
 {% include "footer.njk" %}
