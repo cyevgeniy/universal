@@ -8,6 +8,7 @@
 @import "./button/button.css";
 @import "./posts/posts.css";
 @import "./layout/container.css";
+@import "./layout/page.css";
 @import "./quote/quote.css";
 @import "./layout/bleed.css";
 @import "./card-grid/card-grid.css";
