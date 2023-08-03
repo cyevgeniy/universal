@@ -9,7 +9,7 @@ toc: true
 ## Basics
 
 - [Installation](/docs/install)
-- [Directory structure](/docs/structure)
+- [Directories structure](/docs/structure)
 
 ## Writing content
 

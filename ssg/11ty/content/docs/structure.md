@@ -1,5 +1,5 @@
 ---
-title: Directory structure
+title: Directories structure
 ---
 
 The directory structure is pretty simple.

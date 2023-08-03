@@ -5,7 +5,8 @@ eleventyNavigation:
   order: 1
 ---
 
-Universal is a theme and  a starter template for [11ty static site generator](https://www.11ty.dev/).
+The Universal Theme is a theme and  starter template for
+[11ty static site generator](https://www.11ty.dev/).
 It's planned to add support for Hugo, Jekyll and other SSG when a version
 for 11ty will be finished.
 
@@ -14,15 +15,15 @@ usable, so **[check it out](https://github.com/cyevgeniy/universal)**.
 
 {% fullbleed "yellow-soft", false %}
 {% container %}
-	##  Goals
+	##  THIS THEME...
 
-	- Blazingly fast. Site with Universal **loads in a moment**
+	- Is blazingly fast. Site with The Universal Theme **loads in a moment**
 	- Includes useful and eye-catching shortcodes. **Full-screen bleeds,
 	  cards, card grids, in-paragraph blocks** will help you in fight for
 	  **user attention**
-	- Example based documentation to help you build **your site** as fast as possible
-	- Clean UI
-	- Multiple color variations, so you can **choose the tone** you'll speak to your visitors
+	- Has example based documentation to help you build **your site** as fast as possible
+	- Has clean UI
+	- Has multiple color variations, so you can **choose the tone** you'll speak to your visitors
 
 	**Interested?**
 

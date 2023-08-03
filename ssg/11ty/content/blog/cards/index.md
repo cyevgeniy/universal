@@ -1,6 +1,7 @@
 ---
 showSiteTitle: false
 title: Cards
+date: 2023-07-20
 ---
 
 Use cards to present multiple options for a user.

@@ -18,3 +18,6 @@ frontmatter:
   Note that you can disable publication date
   displaying with `showPostDate` variable in the `_meta.js` file.
 - `toc` - if true, shows a table of content at the beginning of a page
+- `description` - short description of a page. Used for [open graph's](/blog/opengraph) description
+  tag.
+- `image` - open graph's thumbnail image
