@@ -10,5 +10,15 @@ module.exports = {
 	/**
 	 * Display post publish date in a posts list
 	 */
-	showPostDate: true
+  showPostDate: true,
+
+  /**
+   * This value is used for opengraph URL generation
+   */
+  siteURL: 'https://the-universal-theme.netlify.app',
+
+  /**
+   * Site's locale. Used in og:locale meta tag
+   */
+  locale: 'en_US'
 }
